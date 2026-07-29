@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+Disallow: /assets/
+
+Sitemap: https://liyahgroup.me/sitemap.xml
+User-agent: *
+Allow: /
+
+# Bloquer les routes techniques/admin si elles existent
+Disallow: /admin
+Disallow: /api/
+Disallow: /*.json$
+Disallow: /dashboard
+
+Sitemap: https://liyahgroup.me/sitemap.xml

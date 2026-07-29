@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/assets/images/LIYAH_GROUP_LOGO.png" />
+    <link rel="apple-touch-icon" href="/assets/images/LIYAH_GROUP_LOGO.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0F172A" />
+    <link rel="manifest" href="/manifest.json" />
+
+    <!-- Hreflang -->
+    <link rel="alternate" hreflang="en" href="https://liyahgroup.me/" />
+    <link rel="alternate" hreflang="fr" href="https://liyahgroup.me/fr/" />
+    <link rel="alternate" hreflang="x-default" href="https://liyahgroup.me/" />
+
+    <!-- Primary Meta (EN default) -->
+    <title>LIYAH GROUP — Global Technology Company | Enterprise Software, AI, SaaS & Digital Transformation</title>
+    <meta name="description" content="LIYAH GROUP is a global technology company building digital products, enterprise software, AI solutions, cloud solutions, SaaS platforms, e-commerce ecosystems, and digital transformation solutions for businesses across Africa and the UAE. Trusted in Cameroon, Nigeria and Dubai." />
+    <meta name="keywords" content="technology company Africa, enterprise software, AI solutions, SaaS platforms, e-commerce ecosystems, digital transformation, cloud solutions, web design Cameroon, web design Nigeria, digital agency Dubai, LIYAH GROUP, Vincent Nogue, LiAfrik, scalable platforms" />
+    <meta name="author" content="LIYAH GROUP — Vincent Nogue" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://liyahgroup.me/" />
+    <meta property="og:title" content="LIYAH GROUP — Global Technology Company" />
+    <meta property="og:description" content="LIYAH GROUP builds digital products, enterprise software, AI solutions, SaaS platforms, and e-commerce ecosystems for businesses across Africa and the UAE." />
+    <meta property="og:image" content="/assets/images/LIYAH.png" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:locale:alternate" content="fr_FR" />
+    <meta property="og:site_name" content="LIYAH GROUP" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="LIYAH GROUP — Global Technology Company" />
+    <meta name="twitter:description" content="LIYAH GROUP builds digital products, enterprise software, AI solutions, SaaS platforms, and e-commerce ecosystems for businesses across Africa and the UAE." />
+    <meta name="twitter:image" content="/assets/images/LIYAH.png" />
+
+    <!-- Schema.org Organization / LocalBusiness -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "LIYAH GROUP",
+      "alternateName": "LIYAH GROUP",
+      "url": "https://liyahgroup.me",
+      "logo": "https://liyahgroup.me/assets/images/LIYAH_GROUP_LOGO.png",
+      "description": "Global technology company building digital products, enterprise software, AI solutions, cloud solutions, SaaS platforms, e-commerce ecosystems, and digital transformation solutions for businesses worldwide.",
+      "founder": { "@type": "Person", "name": "Vincent Nogue" },
+      "email": ["info@liyahgroup.me", "ceo@liyahgroup.me"],
+      "telephone": "+971503857203",
+      "sameAs": ["https://wa.me/971503857203"],
+      "areaServed": ["Cameroon", "Nigeria", "United Arab Emirates", "Africa", "Gulf Region"],
+      "location": [
+        { "@type": "Place", "name": "Yaoundé - Soa, Cameroon", "address": { "@type": "PostalAddress", "addressLocality": "Yaoundé - Soa", "addressCountry": "CM" } },
+        { "@type": "Place", "name": "Jumeirah 1, Dubai, UAE", "address": { "@type": "PostalAddress", "addressLocality": "Jumeirah 1, Dubai", "addressCountry": "AE" } }
+      ]
+    }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js').catch(() => {});
+        });
+      }
+    </script>
+  </body>
+</html>
