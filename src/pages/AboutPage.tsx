@@ -1,20 +1,8 @@
 import { Link } from 'react-router-dom';
-import { ArrowRight, GraduationCap, Award, MapPin, Briefcase } from 'lucide-react';
+import { GraduationCap, Award, Briefcase } from 'lucide-react';
 import SEO from '@/components/SEO';
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
-import { useCountUp } from '@/hooks/useCountUp';
 import { useLang } from '@/i18n/LangContext';
-import TrustpilotBadge from '@/components/TrustpilotBadge';
-
-function StatItem({ end, prefix, suffix, label }: { end: number; prefix: string; suffix: string; label: string }) {
-  const { ref, value } = useCountUp({ end, duration: 2000 });
-  return (
-    <div ref={ref as React.RefObject<HTMLDivElement>} className="animate-on-scroll flex flex-col items-center text-center">
-      <span className="text-4xl md:text-6xl font-bold text-secondary-500">{prefix}{value}{suffix}</span>
-      <span className="text-slate-400 text-xs md:text-sm uppercase tracking-widest font-medium mt-2">{label}</span>
-    </div>
-  );
-}
 
 const timeline = [
   { year: '2012', label: { en: 'Began career in digital as a Graphic Designer in Cameroon', fr: 'Début de carrière dans le digital en tant que Graphiste au Cameroun' } },
@@ -32,10 +20,8 @@ const education = [
 
 export default function AboutPage() {
   const { t, lang } = useLang();
-  const ref = useScrollAnimation();
   const ref2 = useScrollAnimation();
   const ref3 = useScrollAnimation();
-  const ref4 = useScrollAnimation();
   const ref5 = useScrollAnimation();
 
   return (
@@ -48,7 +34,7 @@ export default function AboutPage() {
         path="/about"
       />
 
-      {/* Simplified hero — single line, no duplicate content */}
+      {/* Hero — single line only */}
       <section className="relative pt-32 md:pt-40 pb-12 md:pb-16 bg-slate-900 overflow-hidden">
         <div className="absolute inset-0 animated-gradient opacity-90" />
         <div
@@ -64,40 +50,6 @@ export default function AboutPage() {
           <h1 className="animate-on-scroll text-2xl md:text-3xl font-bold text-white tracking-tight">
             {lang === 'FR' ? 'Vincent Nogue, Fondateur de LIYAH GROUP' : 'Vincent Nogue, Founder of LIYAH GROUP'}
           </h1>
-        </div>
-      </section>
-
-      {/* Bio + Photo */}
-      <section ref={ref} className="relative py-20 md:py-28 bg-white overflow-hidden">
-        <div className="absolute top-10 right-10 w-64 h-64 bg-secondary-50 rounded-full blur-3xl" />
-        <div className="absolute bottom-10 left-10 w-48 h-48 bg-accent-50 rounded-full blur-3xl" />
-
-        <div className="relative max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 lg:gap-20 items-start">
-          <div className="animate-on-scroll relative">
-            <div className="relative aspect-[4/5] overflow-hidden rounded-2xl bg-slate-200 group max-w-md mx-auto md:mx-0">
-              <img src="/assets/images/IMG_6290.JPG" alt="Vincent Nogue, Founder of LIYAH GROUP" loading="lazy" className="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105" />
-              <div className="absolute inset-0 bg-gradient-to-t from-slate-900/20 via-transparent to-transparent" />
-            </div>
-            <div className="absolute -bottom-4 -right-4 w-24 h-24 border-2 border-secondary-600 rounded-2xl -z-10" />
-            <div className="absolute -top-4 -left-4 w-20 h-20 border-2 border-accent-500/40 rounded-2xl -z-10" />
-          </div>
-
-          <div>
-            <span className="animate-on-scroll section-label">{t.about.label}</span>
-            <h2 className="animate-on-scroll animate-on-scroll-delay-1 text-2xl md:text-3xl font-bold text-slate-900 mb-6 leading-tight text-balance">
-              {t.about.title}
-            </h2>
-            <p className="animate-on-scroll animate-on-scroll-delay-2 text-slate-600 leading-relaxed text-sm md:text-base">
-              {t.about.body}
-            </p>
-            <Link to="/contact" className="animate-on-scroll animate-on-scroll-delay-3 mt-8 inline-flex items-center gap-2 text-sm font-semibold text-secondary-700 hover:text-secondary-800 transition-colors duration-200 group">
-              {t.about.cta}
-              <ArrowRight size={14} className="transition-transform group-hover:translate-x-1" />
-            </Link>
-            <div className="animate-on-scroll animate-on-scroll-delay-3 mt-8">
-              <TrustpilotBadge variant="light" size="md" />
-            </div>
-          </div>
         </div>
       </section>
 
@@ -173,24 +125,6 @@ export default function AboutPage() {
                 )}
               </div>
             ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Stats */}
-      <section ref={ref4} className="relative py-20 md:py-28 bg-slate-900 overflow-hidden">
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(37,99,235,0.05),transparent_60%)]" />
-        <div className="relative max-w-5xl mx-auto px-6">
-          <div className="text-center mb-14">
-            <span className="animate-on-scroll section-label text-secondary-400">KEY METRICS</span>
-            <h2 className="animate-on-scroll animate-on-scroll-delay-1 text-3xl md:text-4xl font-bold tracking-tight text-white">
-              A Track Record Built Over Time
-            </h2>
-          </div>
-          <div className="grid grid-cols-3 gap-4 md:gap-8 py-8">
-            <StatItem end={15} prefix="+" suffix="" label={t.stats[0].label} />
-            <StatItem end={5} prefix="+" suffix="K" label={t.stats[1].label} />
-            <StatItem end={11} prefix="+" suffix="K" label={t.stats[2].label} />
           </div>
         </div>
       </section>
