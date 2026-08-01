@@ -8,16 +8,21 @@
   }
 
   body {
-    font-family: 'Montserrat', system-ui, sans-serif;
+    font-family: 'Glacial Indifference', 'Montserrat', system-ui, sans-serif;
     background-color: #ffffff;
     color: #1e293b;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    cursor: none;
   }
 
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Montserrat', system-ui, sans-serif;
+    font-family: 'Glacial Indifference', 'Montserrat', system-ui, sans-serif;
     letter-spacing: -0.02em;
+  }
+
+  @media (hover: none) {
+    body { cursor: auto; }
   }
 }
 
