@@ -23,18 +23,18 @@ const timeline = [
 ];
 
 const moduleConnections: Record<string, string[]> = {
-  'liafrik-digital-skills': ['liafrik-skul-afrik', 'liafrik-crm', 'liafrik-os'],
+  'liafrik-digital-skills': ['liafrik-klasoo', 'liafrik-crm', 'liafrik-os'],
   'liafrik-pos-commerce': ['liafrik-os', 'liafrik-libooks', 'liafrik-crm'],
   'liafrik-mafo-la-reine': ['liafrik-health', 'liafrik-crm'],
   'liafrik-faka-hr': ['liafrik-libooks', 'liafrik-crm'],
   'liafrik-health': ['liafrik-crm', 'liafrik-libooks', 'liafrik-mafo-la-reine'],
   'liafrik-crm': ['liafrik-pos-commerce', 'liafrik-os', 'liafrik-libooks'],
   'liafrik-libooks': ['liafrik-pos-commerce', 'liafrik-os', 'liafrik-bailly', 'liafrik-faka-hr'],
-  'liafrik-skul-afrik': ['liafrik-digital-skills', 'liafrik-libooks', 'liafrik-crm'],
+  'liafrik-klasoo': ['liafrik-digital-skills', 'liafrik-libooks', 'liafrik-crm'],
   'liafrik-bailly': ['liafrik-libooks', 'liafrik-crm'],
   'liafrik-liafund': ['liafrik-libooks', 'liafrik-crm'],
   'liafrik-os': ['liafrik-pos-commerce', 'liafrik-crm', 'liafrik-libooks'],
-  'liafrik': ['liafrik-digital-skills', 'liafrik-pos-commerce', 'liafrik-mafo-la-reine', 'liafrik-faka-hr', 'liafrik-health', 'liafrik-crm', 'liafrik-libooks', 'liafrik-skul-afrik', 'liafrik-bailly', 'liafrik-liafund', 'liafrik-os'],
+  'liafrik': ['liafrik-digital-skills', 'liafrik-pos-commerce', 'liafrik-mafo-la-reine', 'liafrik-faka-hr', 'liafrik-health', 'liafrik-crm', 'liafrik-libooks', 'liafrik-klasoo', 'liafrik-bailly', 'liafrik-liafund', 'liafrik-os'],
 };
 
 const trustBadges = [

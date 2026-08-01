@@ -26,7 +26,7 @@
   <url><loc>https://liyahgroup.me/saas/liafrik-health</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://liyahgroup.me/saas/liafrik-crm</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://liyahgroup.me/saas/liafrik-libooks</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://liyahgroup.me/saas/liafrik-skul-afrik</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://liyahgroup.me/saas/liafrik-klasoo</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://liyahgroup.me/saas/liafrik-bailly</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://liyahgroup.me/saas/liafrik-liafund</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://liyahgroup.me/saas/liafrik-os</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
@@ -55,4 +55,24 @@
   <url><loc>https://liyahgroup.me/en/digital-agency-united-arab-emirates</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://liyahgroup.me/en/digital-agency-dubai</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://liyahgroup.me/en/digital-agency-sharjah</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <!-- Local SEO pages - Additional African cities -->
+  <url><loc>https://liyahgroup.me/en/digital-agency-rwanda</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://liyahgroup.me/en/digital-agency-ethiopia</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://liyahgroup.me/fr/agence-digitale-gabon</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://liyahgroup.me/fr/agence-digitale-congo</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://liyahgroup.me/fr/agence-digitale-mali</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://liyahgroup.me/fr/agence-digitale-burkina-faso</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://liyahgroup.me/fr/agence-digitale-niger</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://liyahgroup.me/fr/agence-digitale-tchad</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://liyahgroup.me/fr/agence-digitale-guinee</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://liyahgroup.me/fr/agence-digitale-madagascar</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://liyahgroup.me/fr/agence-digitale-abidjan</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://liyahgroup.me/fr/agence-digitale-dakar</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://liyahgroup.me/en/digital-agency-lagos</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://liyahgroup.me/en/digital-agency-nairobi</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://liyahgroup.me/en/digital-agency-accra</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://liyahgroup.me/en/digital-agency-johannesburg</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://liyahgroup.me/fr/agence-digitale-kinshasa</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://liyahgroup.me/fr/agence-digitale-yaounde</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://liyahgroup.me/fr/agence-digitale-douala</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
 </urlset>

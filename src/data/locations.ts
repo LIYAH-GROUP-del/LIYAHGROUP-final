@@ -475,6 +475,538 @@ export const locations: LocationPage[] = [
     },
     hreflangPair: 'agence-digitale-sharjah',
   },
+  {
+    slug: 'digital-agency-rwanda',
+    lang: 'en',
+    country: 'Rwanda',
+    countryCode: 'RW',
+    region: 'anglophone',
+    h1: {
+      en: 'Digital Agency in Rwanda — Websites & Digital Platforms for Rwandan Businesses',
+      fr: 'Agence Digitale au Rwanda — Sites Web & Plateformes Digitales pour les Entreprises Rwandaises',
+    },
+    intro: {
+      en: 'LIYAH GROUP builds websites, e-commerce stores, and digital platforms for businesses in Kigali and across Rwanda.',
+      fr: 'LIYAH GROUP crée des sites web, des boutiques e-commerce et des plateformes digitales pour les entreprises de Kigali et de tout le Rwanda.',
+    },
+    marketContext: {
+      en: 'Rwanda has emerged as one of Africa\'s most tech-forward nations, with Kigali hosting a growing number of startups and tech hubs. The government\'s push for digital transformation has created a fertile environment for e-commerce and digital services. We build for the Rwandan market with English and French support, MTN MoMo and Airtel Money integration.',
+      fr: 'Le Rwanda est devenu l\'une des nations les plus axées sur la tech en Afrique, avec Kigali accueillant un nombre croissant de startups et de hubs tech. La poussée du gouvernement pour la transformation digitale a créé un environnement fertile pour l\'e-commerce et les services digitaux. Nous construisons pour le marché rwandais avec support en anglais et français, intégration MTN MoMo et Airtel Money.',
+    },
+    services: ['website-design-development', 'ecommerce-shopify', 'seo-digital-growth-strategy'],
+    faqs: [
+      { question: { en: 'Do you integrate with MTN MoMo in Rwanda?', fr: 'Vous intégrez-vous avec MTN MoMo au Rwanda ?' }, answer: { en: 'Yes. We integrate MTN MoMo and Airtel Money for Rwandan businesses.', fr: 'Oui. Nous intégrons MTN MoMo et Airtel Money pour les entreprises rwandaises.' } },
+    ],
+    seo: {
+      title: { en: 'Digital Agency in Rwanda | LIYAH GROUP', fr: 'Agence Digitale au Rwanda | LIYAH GROUP' },
+      description: { en: 'Web design, e-commerce, and digital growth for businesses in Kigali and across Rwanda. MTN MoMo integration, English/French, built for the Rwandan market.', fr: 'Création de sites web, e-commerce et croissance digitale pour les entreprises de Kigali et de tout le Rwanda. Intégration MTN MoMo, anglais/français, conçu pour le marché rwandais.' },
+    },
+    hreflangPair: 'agence-digitale-rwanda',
+  },
+  {
+    slug: 'digital-agency-ethiopia',
+    lang: 'en',
+    country: 'Ethiopia',
+    countryCode: 'ET',
+    region: 'anglophone',
+    h1: {
+      en: 'Digital Agency in Ethiopia — Websites & E-Commerce for Ethiopian Businesses',
+      fr: 'Agence Digitale en Éthiopie — Sites Web & E-Commerce pour les Entreprises Éthiopiennes',
+    },
+    intro: {
+      en: 'LIYAH GROUP builds websites, e-commerce stores, and digital platforms for businesses in Addis Ababa and across Ethiopia.',
+      fr: 'LIYAH GROUP crée des sites web, des boutiques e-commerce et des plateformes digitales pour les entreprises d\'Addis-Abeba et de toute l\'Éthiopie.',
+    },
+    marketContext: {
+      en: 'Ethiopia is one of Africa\'s largest markets with a rapidly growing digital economy centered in Addis Ababa. The country\'s mobile money sector is expanding with CBE Birr and M-Pesa. We build for the Ethiopian market with English-language experiences and local payment integration.',
+      fr: 'L\'Éthiopie est l\'un des plus grands marchés d\'Afrique avec une économie digitale en croissance rapide centrée à Addis-Abeba. Le secteur du mobile money s\'y développe avec CBE Birr et M-Pesa. Nous construisons pour le marché éthiopien avec des expériences en anglais et une intégration de paiement locale.',
+    },
+    services: ['website-design-development', 'ecommerce-shopify', 'business-automation-crm'],
+    faqs: [
+      { question: { en: 'Do you work with Ethiopian payment methods?', fr: 'Travaillez-vous avec les méthodes de paiement éthiopiennes ?' }, answer: { en: 'Yes. We integrate CBE Birr and other Ethiopian payment platforms for local businesses.', fr: 'Oui. Nous intégrons CBE Birr et autres plateformes de paiement éthiopiennes pour les entreprises locales.' } },
+    ],
+    seo: {
+      title: { en: 'Digital Agency in Ethiopia | LIYAH GROUP', fr: 'Agence Digitale en Éthiopie | LIYAH GROUP' },
+      description: { en: 'Web design, e-commerce, and digital growth for businesses in Addis Ababa and across Ethiopia. Local payments, English-language, built for the Ethiopian market.', fr: 'Création de sites web, e-commerce et croissance digitale pour les entreprises d\'Addis-Abeba et de toute l\'Éthiopie. Paiements locaux, en anglais, conçu pour le marché éthiopien.' },
+    },
+    hreflangPair: 'agence-digitale-ethiopie',
+  },
+  {
+    slug: 'digital-agency-gabon',
+    lang: 'fr',
+    country: 'Gabon',
+    countryCode: 'GA',
+    region: 'francophone',
+    h1: {
+      en: 'Digital Agency in Gabon — Websites & Digital Platforms for Gabonese Businesses',
+      fr: 'Agence Digitale au Gabon — Sites Web & Plateformes Digitales pour les Entreprises Gabonaises',
+    },
+    intro: {
+      en: 'LIYAH GROUP builds websites, e-commerce stores, and digital platforms for businesses in Libreville and across Gabon.',
+      fr: 'LIYAH GROUP crée des sites web, des boutiques e-commerce et des plateformes digitales pour les entreprises de Libreville et de tout le Gabon.',
+    },
+    marketContext: {
+      en: 'Gabon has a growing digital economy with Libreville as its commercial center. Mobile money adoption through Airtel Money and Moov Money is expanding digital payment options. We build for the Gabonese market with French-language experiences and local payment integration.',
+      fr: 'Le Gabon a une économie digitale en croissance avec Libreville comme centre commercial. L\'adoption du mobile money via Airtel Money et Moov Money élargit les options de paiement digital. Nous construisons pour le marché gabonais avec des expériences en français et une intégration de paiement locale.',
+    },
+    services: ['website-design-development', 'ecommerce-shopify', 'seo-digital-growth-strategy'],
+    faqs: [
+      { question: { en: 'Do you work with Gabonese payment methods?', fr: 'Travaillez-vous avec les méthodes de paiement gabonaises ?' }, answer: { en: 'Yes. We integrate Airtel Money and Moov Money for Gabonese businesses.', fr: 'Oui. Nous intégrons Airtel Money et Moov Money pour les entreprises gabonaises.' } },
+    ],
+    seo: {
+      title: { en: 'Digital Agency in Gabon | LIYAH GROUP', fr: 'Agence Digitale au Gabon | LIYAH GROUP' },
+      description: { en: 'Web design, e-commerce, and digital growth for businesses in Libreville and across Gabon. French-language, local payments, built for the Gabonese market.', fr: 'Création de sites web, e-commerce et croissance digitale pour les entreprises de Libreville et de tout le Gabon. En français, paiements locaux, conçu pour le marché gabonais.' },
+    },
+    hreflangPair: 'agence-digitale-gabon',
+  },
+  {
+    slug: 'digital-agency-congo-brazzaville',
+    lang: 'fr',
+    country: 'Congo',
+    countryCode: 'CG',
+    region: 'francophone',
+    h1: {
+      en: 'Digital Agency in Congo — Websites & Digital Platforms for Congolese Businesses',
+      fr: 'Agence Digitale au Congo — Sites Web & Plateformes Digitales pour les Entreprises Congolaises',
+    },
+    intro: {
+      en: 'LIYAH GROUP builds websites, e-commerce stores, and digital platforms for businesses in Brazzaville and across Congo.',
+      fr: 'LIYAH GROUP crée des sites web, des boutiques e-commerce et des plateformes digitales pour les entreprises de Brazzaville et de tout le Congo.',
+    },
+    marketContext: {
+      en: 'Congo\'s digital economy is developing, with Brazzaville and Pointe-Noire as its main commercial centers. Mobile money adoption through MTN and Airtel is expanding digital payments. We build for the Congolese market with French-language experiences and local payment integration.',
+      fr: 'L\'économie digitale du Congo se développe, avec Brazzaville et Pointe-Noire comme principaux centres commerciaux. L\'adoption du mobile money via MTN et Airtel élargit les paiements digitaux. Nous construisons pour le marché congolais avec des expériences en français et une intégration de paiement locale.',
+    },
+    services: ['website-design-development', 'ecommerce-shopify', 'business-automation-crm'],
+    faqs: [
+      { question: { en: 'Do you work with Congolese payment methods?', fr: 'Travaillez-vous avec les méthodes de paiement congolaises ?' }, answer: { en: 'Yes. We integrate MTN Mobile Money and Airtel Money for Congolese businesses.', fr: 'Oui. Nous intégrons MTN Mobile Money et Airtel Money pour les entreprises congolaises.' } },
+    ],
+    seo: {
+      title: { en: 'Digital Agency in Congo | LIYAH GROUP', fr: 'Agence Digitale au Congo | LIYAH GROUP' },
+      description: { en: 'Web design, e-commerce, and digital growth for businesses in Brazzaville and across Congo. French-language, local payments, built for the Congolese market.', fr: 'Création de sites web, e-commerce et croissance digitale pour les entreprises de Brazzaville et de tout le Congo. En français, paiements locaux, conçu pour le marché congolais.' },
+    },
+    hreflangPair: 'agence-digitale-congo',
+  },
+  {
+    slug: 'digital-agency-mali',
+    lang: 'fr',
+    country: 'Mali',
+    countryCode: 'ML',
+    region: 'francophone',
+    h1: {
+      en: 'Digital Agency in Mali — Websites & Digital Platforms for Malian Businesses',
+      fr: 'Agence Digitale au Mali — Sites Web & Plateformes Digitales pour les Entreprises Maliennes',
+    },
+    intro: {
+      en: 'LIYAH GROUP builds websites, e-commerce stores, and digital platforms for businesses in Bamako and across Mali.',
+      fr: 'LIYAH GROUP crée des sites web, des boutiques e-commerce et des plateformes digitales pour les entreprises de Bamako et de tout le Mali.',
+    },
+    marketContext: {
+      en: 'Mali\'s digital economy is growing, with Bamako as its commercial and tech center. Mobile money adoption through Orange Money and Moov is expanding access to digital payments. We build for the Malian market with French-language experiences and local payment integration.',
+      fr: 'L\'économie digitale du Mali est en croissance, avec Bamako comme centre commercial et tech. L\'adoption du mobile money via Orange Money et Moov élargit l\'accès aux paiements digitaux. Nous construisons pour le marché malien avec des expériences en français et une intégration de paiement locale.',
+    },
+    services: ['website-design-development', 'ecommerce-shopify', 'seo-digital-growth-strategy'],
+    faqs: [
+      { question: { en: 'Do you work with Malian payment methods?', fr: 'Travaillez-vous avec les méthodes de paiement maliennes ?' }, answer: { en: 'Yes. We integrate Orange Money and Moov Money for Malian businesses.', fr: 'Oui. Nous intégrons Orange Money et Moov Money pour les entreprises maliennes.' } },
+    ],
+    seo: {
+      title: { en: 'Digital Agency in Mali | LIYAH GROUP', fr: 'Agence Digitale au Mali | LIYAH GROUP' },
+      description: { en: 'Web design, e-commerce, and digital growth for businesses in Bamako and across Mali. French-language, Orange Money integration, built for the Malian market.', fr: 'Création de sites web, e-commerce et croissance digitale pour les entreprises de Bamako et de tout le Mali. En français, intégration Orange Money, conçu pour le marché malien.' },
+    },
+    hreflangPair: 'agence-digitale-mali',
+  },
+  {
+    slug: 'digital-agency-burkina-faso',
+    lang: 'fr',
+    country: 'Burkina Faso',
+    countryCode: 'BF',
+    region: 'francophone',
+    h1: {
+      en: 'Digital Agency in Burkina Faso — Websites & Digital Platforms for Burkinabé Businesses',
+      fr: 'Agence Digitale au Burkina Faso — Sites Web & Plateformes Digitales pour les Entreprises Burkinabé',
+    },
+    intro: {
+      en: 'LIYAH GROUP builds websites, e-commerce stores, and digital platforms for businesses in Ouagadougou and across Burkina Faso.',
+      fr: 'LIYAH GROUP crée des sites web, des boutiques e-commerce et des plateformes digitales pour les entreprises de Ouagadougou et de tout le Burkina Faso.',
+    },
+    marketContext: {
+      en: 'Burkina Faso\'s digital economy is developing, with Ouagadougou as its commercial hub. Mobile money adoption through Orange Money and Moov is expanding digital payment options. We build for the Burkinabé market with French-language experiences and local payment integration.',
+      fr: 'L\'économie digitale du Burkina Faso se développe, avec Ouagadougou comme hub commercial. L\'adoption du mobile money via Orange Money et Moov élargit les options de paiement digital. Nous construisons pour le marché burkinabé avec des expériences en français et une intégration de paiement locale.',
+    },
+    services: ['website-design-development', 'ecommerce-shopify', 'seo-digital-growth-strategy'],
+    faqs: [
+      { question: { en: 'Do you work with Burkinabé payment methods?', fr: 'Travaillez-vous avec les méthodes de paiement burkinabé ?' }, answer: { en: 'Yes. We integrate Orange Money and Moov Money for Burkinabé businesses.', fr: 'Oui. Nous intégrons Orange Money et Moov Money pour les entreprises burkinabé.' } },
+    ],
+    seo: {
+      title: { en: 'Digital Agency in Burkina Faso | LIYAH GROUP', fr: 'Agence Digitale au Burkina Faso | LIYAH GROUP' },
+      description: { en: 'Web design, e-commerce, and digital growth for businesses in Ouagadougou and across Burkina Faso. French-language, Orange Money integration, built for the Burkinabé market.', fr: 'Création de sites web, e-commerce et croissance digitale pour les entreprises de Ouagadougou et de tout le Burkina Faso. En français, intégration Orange Money, conçu pour le marché burkinabé.' },
+    },
+    hreflangPair: 'agence-digitale-burkina-faso',
+  },
+  {
+    slug: 'digital-agency-niger',
+    lang: 'fr',
+    country: 'Niger',
+    countryCode: 'NE',
+    region: 'francophone',
+    h1: {
+      en: 'Digital Agency in Niger — Websites & Digital Platforms for Nigerien Businesses',
+      fr: 'Agence Digitale au Niger — Sites Web & Plateformes Digitales pour les Entreprises Nigériennes',
+    },
+    intro: {
+      en: 'LIYAH GROUP builds websites, e-commerce stores, and digital platforms for businesses in Niamey and across Niger.',
+      fr: 'LIYAH GROUP crée des sites web, des boutiques e-commerce et des plateformes digitales pour les entreprises de Niamey et de tout le Niger.',
+    },
+    marketContext: {
+      en: 'Niger\'s digital economy is emerging, with Niamey as its commercial center. Mobile money adoption through Orange Money and Airtel Money is expanding access to digital payments. We build for the Nigerien market with French-language experiences and local payment integration.',
+      fr: 'L\'économie digitale du Niger émerge, avec Niamey comme centre commercial. L\'adoption du mobile money via Orange Money et Airtel Money élargit l\'accès aux paiements digitaux. Nous construisons pour le marché nigérien avec des expériences en français et une intégration de paiement locale.',
+    },
+    services: ['website-design-development', 'ecommerce-shopify', 'seo-digital-growth-strategy'],
+    faqs: [
+      { question: { en: 'Do you work with Nigerien payment methods?', fr: 'Travaillez-vous avec les méthodes de paiement nigériennes ?' }, answer: { en: 'Yes. We integrate Orange Money and Airtel Money for Nigerien businesses.', fr: 'Oui. Nous intégrons Orange Money et Airtel Money pour les entreprises nigériennes.' } },
+    ],
+    seo: {
+      title: { en: 'Digital Agency in Niger | LIYAH GROUP', fr: 'Agence Digitale au Niger | LIYAH GROUP' },
+      description: { en: 'Web design, e-commerce, and digital growth for businesses in Niamey and across Niger. French-language, Orange Money integration, built for the Nigerien market.', fr: 'Création de sites web, e-commerce et croissance digitale pour les entreprises de Niamey et de tout le Niger. En français, intégration Orange Money, conçu pour le marché nigérien.' },
+    },
+    hreflangPair: 'agence-digitale-niger',
+  },
+  {
+    slug: 'digital-agency-chad',
+    lang: 'fr',
+    country: 'Chad',
+    countryCode: 'TD',
+    region: 'francophone',
+    h1: {
+      en: 'Digital Agency in Chad — Websites & Digital Platforms for Chadian Businesses',
+      fr: 'Agence Digitale au Tchad — Sites Web & Plateformes Digitales pour les Entreprises Tchadiennes',
+    },
+    intro: {
+      en: 'LIYAH GROUP builds websites, e-commerce stores, and digital platforms for businesses in N\'Djamena and across Chad.',
+      fr: 'LIYAH GROUP crée des sites web, des boutiques e-commerce et des plateformes digitales pour les entreprises de N\'Djamena et de tout le Tchad.',
+    },
+    marketContext: {
+      en: 'Chad\'s digital economy is developing, with N\'Djamena as its commercial center. Mobile money adoption through Airtel Money and Moov is expanding digital payment options. We build for the Chadian market with French-language experiences and local payment integration.',
+      fr: 'L\'économie digitale du Tchad se développe, avec N\'Djamena comme centre commercial. L\'adoption du mobile money via Airtel Money et Moov élargit les options de paiement digital. Nous construisons pour le marché tchadien avec des expériences en français et une intégration de paiement locale.',
+    },
+    services: ['website-design-development', 'ecommerce-shopify', 'business-automation-crm'],
+    faqs: [
+      { question: { en: 'Do you work with Chadian payment methods?', fr: 'Travaillez-vous avec les méthodes de paiement tchadiennes ?' }, answer: { en: 'Yes. We integrate Airtel Money and Moov Money for Chadian businesses.', fr: 'Oui. Nous intégrons Airtel Money et Moov Money pour les entreprises tchadiennes.' } },
+    ],
+    seo: {
+      title: { en: 'Digital Agency in Chad | LIYAH GROUP', fr: 'Agence Digitale au Tchad | LIYAH GROUP' },
+      description: { en: 'Web design, e-commerce, and digital growth for businesses in N\'Djamena and across Chad. French-language, local payments, built for the Chadian market.', fr: 'Création de sites web, e-commerce et croissance digitale pour les entreprises de N\'Djamena et de tout le Tchad. En français, paiements locaux, conçu pour le marché tchadien.' },
+    },
+    hreflangPair: 'agence-digitale-tchad',
+  },
+  {
+    slug: 'digital-agency-guinea',
+    lang: 'fr',
+    country: 'Guinea',
+    countryCode: 'GN',
+    region: 'francophone',
+    h1: {
+      en: 'Digital Agency in Guinea — Websites & Digital Platforms for Guinean Businesses',
+      fr: 'Agence Digitale en Guinée — Sites Web & Plateformes Digitales pour les Entreprises Guinéennes',
+    },
+    intro: {
+      en: 'LIYAH GROUP builds websites, e-commerce stores, and digital platforms for businesses in Conakry and across Guinea.',
+      fr: 'LIYAH GROUP crée des sites web, des boutiques e-commerce et des plateformes digitales pour les entreprises de Conakry et de toute la Guinée.',
+    },
+    marketContext: {
+      en: 'Guinea\'s digital economy is growing, with Conakry as its commercial hub. Mobile money adoption through Orange Money and MTN is expanding digital payment options. We build for the Guinean market with French-language experiences and local payment integration.',
+      fr: 'L\'économie digitale de la Guinée est en croissance, avec Conakry comme hub commercial. L\'adoption du mobile money via Orange Money et MTN élargit les options de paiement digital. Nous construisons pour le marché guinéen avec des expériences en français et une intégration de paiement locale.',
+    },
+    services: ['website-design-development', 'ecommerce-shopify', 'seo-digital-growth-strategy'],
+    faqs: [
+      { question: { en: 'Do you work with Guinean payment methods?', fr: 'Travaillez-vous avec les méthodes de paiement guinéennes ?' }, answer: { en: 'Yes. We integrate Orange Money and MTN Mobile Money for Guinean businesses.', fr: 'Oui. Nous intégrons Orange Money et MTN Mobile Money pour les entreprises guinéennes.' } },
+    ],
+    seo: {
+      title: { en: 'Digital Agency in Guinea | LIYAH GROUP', fr: 'Agence Digitale en Guinée | LIYAH GROUP' },
+      description: { en: 'Web design, e-commerce, and digital growth for businesses in Conakry and across Guinea. French-language, Orange Money integration, built for the Guinean market.', fr: 'Création de sites web, e-commerce et croissance digitale pour les entreprises de Conakry et de toute la Guinée. En français, intégration Orange Money, conçu pour le marché guinéen.' },
+    },
+    hreflangPair: 'agence-digitale-guinee',
+  },
+  {
+    slug: 'digital-agency-madagascar',
+    lang: 'fr',
+    country: 'Madagascar',
+    countryCode: 'MG',
+    region: 'francophone',
+    h1: {
+      en: 'Digital Agency in Madagascar — Websites & Digital Platforms for Malagasy Businesses',
+      fr: 'Agence Digitale à Madagascar — Sites Web & Plateformes Digitales pour les Entreprises Malgaches',
+    },
+    intro: {
+      en: 'LIYAH GROUP builds websites, e-commerce stores, and digital platforms for businesses in Antananarivo and across Madagascar.',
+      fr: 'LIYAH GROUP crée des sites web, des boutiques e-commerce et des plateformes digitales pour les entreprises d\'Antananarivo et de toute Madagascar.',
+    },
+    marketContext: {
+      en: 'Madagascar has a growing digital economy with Antananarivo as its tech and commerce center. Mobile money adoption through MVola and Orange Money is expanding digital payments. We build for the Malagasy market with French-language experiences and local payment integration.',
+      fr: 'Madagascar a une économie digitale en croissance avec Antananarivo comme centre tech et commercial. L\'adoption du mobile money via MVola et Orange Money élargit les paiements digitaux. Nous construisons pour le marché malgache avec des expériences en français et une intégration de paiement locale.',
+    },
+    services: ['website-design-development', 'ecommerce-shopify', 'seo-digital-growth-strategy'],
+    faqs: [
+      { question: { en: 'Do you work with Malagasy payment methods?', fr: 'Travaillez-vous avec les méthodes de paiement malgaches ?' }, answer: { en: 'Yes. We integrate MVola and Orange Money for Malagasy businesses.', fr: 'Oui. Nous intégrons MVola et Orange Money pour les entreprises malgaches.' } },
+    ],
+    seo: {
+      title: { en: 'Digital Agency in Madagascar | LIYAH GROUP', fr: 'Agence Digitale à Madagascar | LIYAH GROUP' },
+      description: { en: 'Web design, e-commerce, and digital growth for businesses in Antananarivo and across Madagascar. French-language, MVola integration, built for the Malagasy market.', fr: 'Création de sites web, e-commerce et croissance digitale pour les entreprises d\'Antananarivo et de toute Madagascar. En français, intégration MVola, conçu pour le marché malgache.' },
+    },
+    hreflangPair: 'agence-digitale-madagascar',
+  },
+  {
+    slug: 'digital-agency-abidjan',
+    lang: 'fr',
+    country: 'Côte d\'Ivoire',
+    countryCode: 'CI',
+    region: 'francophone',
+    h1: {
+      en: 'Digital Agency in Abidjan — Websites, E-Commerce & Digital Growth',
+      fr: 'Agence Digitale à Abidjan — Sites Web, E-Commerce & Croissance Digitale',
+    },
+    intro: {
+      en: 'LIYAH GROUP builds websites, e-commerce stores, and digital platforms for businesses in Abidjan — the economic capital of Côte d\'Ivoire.',
+      fr: 'LIYAH GROUP crée des sites web, des boutiques e-commerce et des plateformes digitales pour les entreprises d\'Abidjan — la capitale économique de la Côte d\'Ivoire.',
+    },
+    marketContext: {
+      en: 'Abidjan is West Africa\'s francophone digital hub, with rapid mobile money adoption (Orange Money, MTN Money, Moov Money) and a growing tech ecosystem in neighborhoods like Plateau and Cocody. We build for Abidjan businesses with French-language experiences, local payment integration, and logistics adapted to the city.',
+      fr: 'Abidjan est le hub digital francophone de l\'Afrique de l\'Ouest, avec une adoption rapide du mobile money (Orange Money, MTN Money, Moov Money) et un écosystème tech en croissance dans des quartiers comme le Plateau et Cocody. Nous construisons pour les entreprises d\'Abidjan avec des expériences en français, une intégration de paiement locale, et une logistique adaptée à la ville.',
+    },
+    services: ['website-design-development', 'ecommerce-shopify', 'seo-digital-growth-strategy'],
+    faqs: [
+      { question: { en: 'Do you work with Orange Money and MTN Money in Abidjan?', fr: 'Travaillez-vous avec Orange Money et MTN Money à Abidjan ?' }, answer: { en: 'Yes. We integrate Orange Money, MTN Money, and Moov Money for Abidjan businesses.', fr: 'Oui. Nous intégrons Orange Money, MTN Money et Moov Money pour les entreprises d\'Abidjan.' } },
+    ],
+    seo: {
+      title: { en: 'Digital Agency in Abidjan | LIYAH GROUP', fr: 'Agence Digitale à Abidjan | LIYAH GROUP' },
+      description: { en: 'Web design, e-commerce, and digital growth for businesses in Abidjan, Côte d\'Ivoire. Orange Money and MTN Money integration, French-language, built for the Abidjan market.', fr: 'Création de sites web, e-commerce et croissance digitale pour les entreprises d\'Abidjan, Côte d\'Ivoire. Intégration Orange Money et MTN Money, en français, conçu pour le marché d\'Abidjan.' },
+    },
+    hreflangPair: 'agence-digitale-abidjan',
+  },
+  {
+    slug: 'digital-agency-dakar',
+    lang: 'fr',
+    country: 'Sénégal',
+    countryCode: 'SN',
+    region: 'francophone',
+    h1: {
+      en: 'Digital Agency in Dakar — Websites, E-Commerce & Digital Growth',
+      fr: 'Agence Digitale à Dakar — Sites Web, E-Commerce & Croissance Digitale',
+    },
+    intro: {
+      en: 'LIYAH GROUP builds websites, e-commerce stores, and digital platforms for businesses in Dakar — Senegal\'s tech and commerce hub.',
+      fr: 'LIYAH GROUP crée des sites web, des boutiques e-commerce et des plateformes digitales pour les entreprises de Dakar — le hub tech et commerce du Sénégal.',
+    },
+    marketContext: {
+      en: 'Dakar is Senegal\'s digital epicenter, with Wave\'s mobile money revolution transforming online payments. The city has a thriving startup ecosystem and growing e-commerce sector. We build for Dakar businesses with French-language experiences, Wave and Orange Money integration, and SEO targeting Senegalese search behavior.',
+      fr: 'Dakar est l\'épicentre digital du Sénégal, avec la révolution du mobile money de Wave qui transforme les paiements en ligne. La ville a un écosystème startup florissant et un secteur e-commerce en croissance. Nous construisons pour les entreprises de Dakar avec des expériences en français, intégration Wave et Orange Money, et un SEO ciblant le comportement de recherche sénégalais.',
+    },
+    services: ['website-design-development', 'ecommerce-shopify', 'seo-digital-growth-strategy'],
+    faqs: [
+      { question: { en: 'Do you integrate with Wave in Dakar?', fr: 'Vous intégrez-vous avec Wave à Dakar ?' }, answer: { en: 'Yes. We integrate Wave, Orange Money, and Free Money for Dakar businesses.', fr: 'Oui. Nous intégrons Wave, Orange Money et Free Money pour les entreprises de Dakar.' } },
+    ],
+    seo: {
+      title: { en: 'Digital Agency in Dakar | LIYAH GROUP', fr: 'Agence Digitale à Dakar | LIYAH GROUP' },
+      description: { en: 'Web design, e-commerce, and digital growth for businesses in Dakar, Senegal. Wave and Orange Money integration, French-language, SEO for the Dakar market.', fr: 'Création de sites web, e-commerce et croissance digitale pour les entreprises de Dakar, Sénégal. Intégration Wave et Orange Money, en français, SEO pour le marché de Dakar.' },
+    },
+    hreflangPair: 'agence-digitale-dakar',
+  },
+  {
+    slug: 'digital-agency-lagos',
+    lang: 'en',
+    country: 'Nigeria',
+    countryCode: 'NG',
+    region: 'anglophone',
+    h1: {
+      en: 'Digital Agency in Lagos — Websites, E-Commerce & Digital Growth',
+      fr: 'Agence Digitale à Lagos — Sites Web, E-Commerce & Croissance Digitale',
+    },
+    intro: {
+      en: 'LIYAH GROUP builds websites, e-commerce stores, and digital platforms for businesses in Lagos — Africa\'s largest tech and commerce hub.',
+      fr: 'LIYAH GROUP crée des sites web, des boutiques e-commerce et des plateformes digitales pour les entreprises de Lagos — le plus grand hub tech et commerce d\'Afrique.',
+    },
+    marketContext: {
+      en: 'Lagos is Africa\'s biggest tech ecosystem, home to Yaba\'s Silicon Lagoon and a thriving fintech scene. Paystack and Flutterwave have transformed digital payments. We build for Lagos businesses with English-language experiences, Paystack and Flutterwave integration, and logistics adapted to Lagos traffic and consumer behavior.',
+      fr: 'Lagos est le plus grand écosystème tech d\'Afrique, abritant le Silicon Lagoon de Yaba et une scène fintech florissante. Paystack et Flutterwave ont transformé les paiements digitaux. Nous construisons pour les entreprises de Lagos avec des expériences en anglais, intégration Paystack et Flutterwave, et logistique adaptée au trafic et au comportement des consommateurs de Lagos.',
+    },
+    services: ['website-design-development', 'ecommerce-shopify', 'seo-digital-growth-strategy'],
+    faqs: [
+      { question: { en: 'Do you integrate with Paystack and Flutterwave in Lagos?', fr: 'Vous intégrez-vous avec Paystack et Flutterwave à Lagos ?' }, answer: { en: 'Yes. We integrate Paystack, Flutterwave, and other Nigerian payment gateways for Lagos businesses.', fr: 'Oui. Nous intégrons Paystack, Flutterwave et autres passerelles de paiement nigérianes pour les entreprises de Lagos.' } },
+    ],
+    seo: {
+      title: { en: 'Digital Agency in Lagos | LIYAH GROUP', fr: 'Agence Digitale à Lagos | LIYAH GROUP' },
+      description: { en: 'Web design, e-commerce, and digital growth for businesses in Lagos, Nigeria. Paystack and Flutterwave integration, English-language, built for the Lagos market.', fr: 'Création de sites web, e-commerce et croissance digitale pour les entreprises de Lagos, Nigeria. Intégration Paystack et Flutterwave, en anglais, conçu pour le marché de Lagos.' },
+    },
+    hreflangPair: 'agence-digitale-lagos',
+  },
+  {
+    slug: 'digital-agency-nairobi',
+    lang: 'en',
+    country: 'Kenya',
+    countryCode: 'KE',
+    region: 'anglophone',
+    h1: {
+      en: 'Digital Agency in Nairobi — Websites, E-Commerce & Digital Growth',
+      fr: 'Agence Digitale à Nairobi — Sites Web, E-Commerce & Croissance Digitale',
+    },
+    intro: {
+      en: 'LIYAH GROUP builds websites, e-commerce stores, and digital platforms for businesses in Nairobi — East Africa\'s leading tech hub.',
+      fr: 'LIYAH GROUP crée des sites web, des boutiques e-commerce et des plateformes digitales pour les entreprises de Nairobi — le hub tech leader de l\'Afrique de l\'Est.',
+    },
+    marketContext: {
+      en: 'Nairobi is East Africa\'s Silicon Savannah, with M-Pesa deeply embedded in commerce and a thriving startup ecosystem. We build for Nairobi businesses with M-Pesa integration, English-language experiences, and logistics adapted to Nairobi and regional Kenyan cities.',
+      fr: 'Nairobi est le Silicon Savannah de l\'Afrique de l\'Est, avec M-Pesa profondément ancré dans le commerce et un écosystème startup florissant. Nous construisons pour les entreprises de Nairobi avec intégration M-Pesa, expériences en anglais et logistique adaptée à Nairobi et aux villes régionales kényanes.',
+    },
+    services: ['ecommerce-shopify', 'website-design-development', 'seo-digital-growth-strategy'],
+    faqs: [
+      { question: { en: 'Do you integrate with M-Pesa in Nairobi?', fr: 'Vous intégrez-vous avec M-Pesa à Nairobi ?' }, answer: { en: 'Yes. M-Pesa integration is standard for all Nairobi e-commerce stores we build.', fr: 'Oui. L\'intégration M-Pesa est standard pour toutes les boutiques e-commerce de Nairobi que nous construisons.' } },
+    ],
+    seo: {
+      title: { en: 'Digital Agency in Nairobi | LIYAH GROUP', fr: 'Agence Digitale à Nairobi | LIYAH GROUP' },
+      description: { en: 'Web design, e-commerce, and digital growth for businesses in Nairobi, Kenya. M-Pesa integration, English-language, built for the Nairobi market.', fr: 'Création de sites web, e-commerce et croissance digitale pour les entreprises de Nairobi, Kenya. Intégration M-Pesa, en anglais, conçu pour le marché de Nairobi.' },
+    },
+    hreflangPair: 'agence-digitale-nairobi',
+  },
+  {
+    slug: 'digital-agency-accra',
+    lang: 'en',
+    country: 'Ghana',
+    countryCode: 'GH',
+    region: 'anglophone',
+    h1: {
+      en: 'Digital Agency in Accra — Websites, E-Commerce & Digital Growth',
+      fr: 'Agence Digitale à Accra — Sites Web, E-Commerce & Croissance Digitale',
+    },
+    intro: {
+      en: 'LIYAH GROUP builds websites, e-commerce stores, and digital platforms for businesses in Accra — Ghana\'s tech and commerce capital.',
+      fr: 'LIYAH GROUP crée des sites web, des boutiques e-commerce et des plateformes digitales pour les entreprises d\'Accra — la capitale tech et commerce du Ghana.',
+    },
+    marketContext: {
+      en: 'Accra is Ghana\'s digital hub, with MTN MoMo leading mobile money adoption and a growing startup ecosystem. We build for Accra businesses with English-language experiences, MTN MoMo and Telecel Cash integration, and SEO targeting Ghanaian search behavior.',
+      fr: 'Accra est le hub digital du Ghana, avec MTN MoMo en tête de l\'adoption du mobile money et un écosystème startup en croissance. Nous construisons pour les entreprises d\'Accra avec des expériences en anglais, intégration MTN MoMo et Telecel Cash, et un SEO ciblant le comportement de recherche ghanéen.',
+    },
+    services: ['website-design-development', 'ecommerce-shopify', 'business-automation-crm'],
+    faqs: [
+      { question: { en: 'Do you integrate with MTN MoMo in Accra?', fr: 'Vous intégrez-vous avec MTN MoMo à Accra ?' }, answer: { en: 'Yes. We integrate MTN MoMo, Telecel Cash, and other Ghanaian payment methods for Accra businesses.', fr: 'Oui. Nous intégrons MTN MoMo, Telecel Cash et autres méthodes de paiement ghanéennes pour les entreprises d\'Accra.' } },
+    ],
+    seo: {
+      title: { en: 'Digital Agency in Accra | LIYAH GROUP', fr: 'Agence Digitale à Accra | LIYAH GROUP' },
+      description: { en: 'Web design, e-commerce, and digital growth for businesses in Accra, Ghana. MTN MoMo integration, English-language, built for the Accra market.', fr: 'Création de sites web, e-commerce et croissance digitale pour les entreprises d\'Accra, Ghana. Intégration MTN MoMo, en anglais, conçu pour le marché d\'Accra.' },
+    },
+    hreflangPair: 'agence-digitale-accra',
+  },
+  {
+    slug: 'digital-agency-johannesburg',
+    lang: 'en',
+    country: 'South Africa',
+    countryCode: 'ZA',
+    region: 'anglophone',
+    h1: {
+      en: 'Digital Agency in Johannesburg — Websites, E-Commerce & Digital Growth',
+      fr: 'Agence Digitale à Johannesburg — Sites Web, E-Commerce & Croissance Digitale',
+    },
+    intro: {
+      en: 'LIYAH GROUP builds websites, e-commerce stores, and digital platforms for businesses in Johannesburg — South Africa\'s economic powerhouse.',
+      fr: 'LIYAH GROUP crée des sites web, des boutiques e-commerce et des plateformes digitales pour les entreprises de Johannesburg — la puissance économique de l\'Afrique du Sud.',
+    },
+    marketContext: {
+      en: 'Johannesburg is South Africa\'s largest commercial center, with sophisticated e-commerce consumers and mature digital infrastructure. We build for Joburg businesses with English-language experiences, PayFast and Yoco integration, and SEO targeting South African search behavior.',
+      fr: 'Johannesburg est le plus grand centre commercial d\'Afrique du Sud, avec des consommateurs e-commerce sophistiqués et une infrastructure digitale mature. Nous construisons pour les entreprises de Joburg avec des expériences en anglais, intégration PayFast et Yoco, et un SEO ciblant le comportement de recherche sud-africain.',
+    },
+    services: ['website-design-development', 'ecommerce-shopify', 'seo-digital-growth-strategy'],
+    faqs: [
+      { question: { en: 'Do you integrate with South African payment gateways in Johannesburg?', fr: 'Vous intégrez-vous avec les passerelles de paiement sud-africaines à Johannesburg ?' }, answer: { en: 'Yes. We integrate PayFast, Yoco, Ozow, and other South African payment methods for Johannesburg businesses.', fr: 'Oui. Nous intégrons PayFast, Yoco, Ozow et autres méthodes de paiement sud-africaines pour les entreprises de Johannesburg.' } },
+    ],
+    seo: {
+      title: { en: 'Digital Agency in Johannesburg | LIYAH GROUP', fr: 'Agence Digitale à Johannesburg | LIYAH GROUP' },
+      description: { en: 'Web design, e-commerce, and digital growth for businesses in Johannesburg, South Africa. PayFast and Yoco integration, English-language, built for the Johannesburg market.', fr: 'Création de sites web, e-commerce et croissance digitale pour les entreprises de Johannesburg, Afrique du Sud. Intégration PayFast et Yoco, en anglais, conçu pour le marché de Johannesburg.' },
+    },
+    hreflangPair: 'agence-digitale-johannesburg',
+  },
+  {
+    slug: 'digital-agency-kinshasa',
+    lang: 'fr',
+    country: 'République Démocratique du Congo',
+    countryCode: 'CD',
+    region: 'francophone',
+    h1: {
+      en: 'Digital Agency in Kinshasa — Websites, E-Commerce & Digital Growth',
+      fr: 'Agence Digitale à Kinshasa — Sites Web, E-Commerce & Croissance Digitale',
+    },
+    intro: {
+      en: 'LIYAH GROUP builds websites, e-commerce stores, and digital platforms for businesses in Kinshasa — the DRC\'s sprawling economic capital.',
+      fr: 'LIYAH GROUP crée des sites web, des boutiques e-commerce et des plateformes digitales pour les entreprises de Kinshasa — la capitale économique sprawling de la RDC.',
+    },
+    marketContext: {
+      en: 'Kinshasa is Africa\'s third-largest city and the DRC\'s commercial heart, with Vodacom M-Pesa, Airtel Money, and Orange Money transforming digital payments. We build for Kinshasa businesses with French-language experiences, local payment integration, and logistics adapted to this massive market.',
+      fr: 'Kinshasa est la troisième plus grande ville d\'Afrique et le cœur commercial de la RDC, avec Vodacom M-Pesa, Airtel Money et Orange Money qui transforment les paiements digitaux. Nous construisons pour les entreprises de Kinshasa avec des expériences en français, une intégration de paiement locale, et une logistique adaptée à ce marché massif.',
+    },
+    services: ['website-design-development', 'ecommerce-shopify', 'business-automation-crm'],
+    faqs: [
+      { question: { en: 'Do you work with Congolese payment methods in Kinshasa?', fr: 'Travaillez-vous avec les méthodes de paiement congolaises à Kinshasa ?' }, answer: { en: 'Yes. We integrate Vodacom M-Pesa, Airtel Money, and Orange Money for Kinshasa businesses.', fr: 'Oui. Nous intégrons Vodacom M-Pesa, Airtel Money et Orange Money pour les entreprises de Kinshasa.' } },
+    ],
+    seo: {
+      title: { en: 'Digital Agency in Kinshasa | LIYAH GROUP', fr: 'Agence Digitale à Kinshasa | LIYAH GROUP' },
+      description: { en: 'Web design, e-commerce, and digital growth for businesses in Kinshasa, DRC. M-Pesa and Airtel Money integration, French-language, built for the Kinshasa market.', fr: 'Création de sites web, e-commerce et croissance digitale pour les entreprises de Kinshasa, RDC. Intégration M-Pesa et Airtel Money, en français, conçu pour le marché de Kinshasa.' },
+    },
+    hreflangPair: 'agence-digitale-kinshasa',
+  },
+  {
+    slug: 'digital-agency-yaounde',
+    lang: 'fr',
+    country: 'Cameroun',
+    countryCode: 'CM',
+    region: 'francophone',
+    h1: {
+      en: 'Digital Agency in Yaoundé — Websites, E-Commerce & Digital Growth',
+      fr: 'Agence Digitale à Yaoundé — Sites Web, E-Commerce & Croissance Digitale',
+    },
+    intro: {
+      en: 'LIYAH GROUP builds websites, e-commerce stores, and digital platforms for businesses in Yaoundé — Cameroon\'s political capital and a key commercial center.',
+      fr: 'LIYAH GROUP crée des sites web, des boutiques e-commerce et des plateformes digitales pour les entreprises de Yaoundé — la capitale politique du Cameroun et un centre commercial clé.',
+    },
+    marketContext: {
+      en: 'Yaoundé is Cameroon\'s political capital, and LIYAH GROUP has a direct presence in Yaoundé - Soa. The city is a bilingual French/English market with growing mobile money adoption through MTN Mobile Money and Orange Money. We build for Yaoundé businesses with bilingual experiences, local payment integration, and on-the-ground understanding of the Cameroonian market.',
+      fr: 'Yaoundé est la capitale politique du Cameroun, et LIYAH GROUP est directement présent à Yaoundé - Soa. La ville est un marché bilingue français/anglais avec une adoption croissante du mobile money via MTN Mobile Money et Orange Money. Nous construisons pour les entreprises de Yaoundé avec des expériences bilingues, une intégration de paiement locale, et une compréhension terrain du marché camerounais.',
+    },
+    services: ['website-design-development', 'ecommerce-shopify', 'business-automation-crm'],
+    faqs: [
+      { question: { en: 'Do you have a local presence in Yaoundé?', fr: 'Avez-vous une présence locale à Yaoundé ?' }, answer: { en: 'Yes. LIYAH GROUP has a presence in Yaoundé - Soa, Cameroon, giving us direct understanding of the local market.', fr: 'Oui. LIYAH GROUP est présent à Yaoundé - Soa, au Cameroun, ce qui nous donne une compréhension directe du marché local.' } },
+    ],
+    seo: {
+      title: { en: 'Digital Agency in Yaoundé | LIYAH GROUP', fr: 'Agence Digitale à Yaoundé | LIYAH GROUP' },
+      description: { en: 'Web design, e-commerce, and digital growth for businesses in Yaoundé, Cameroon. MTN and Orange Money integration, bilingual French/English, local presence in Soa.', fr: 'Création de sites web, e-commerce et croissance digitale pour les entreprises de Yaoundé, Cameroun. Intégration MTN et Orange Money, bilingue français/anglais, présence locale à Soa.' },
+    },
+    hreflangPair: 'agence-digitale-yaounde',
+  },
+  {
+    slug: 'digital-agency-douala',
+    lang: 'fr',
+    country: 'Cameroun',
+    countryCode: 'CM',
+    region: 'francophone',
+    h1: {
+      en: 'Digital Agency in Douala — Websites, E-Commerce & Digital Growth',
+      fr: 'Agence Digitale à Douala — Sites Web, E-Commerce & Croissance Digitale',
+    },
+    intro: {
+      en: 'LIYAH GROUP builds websites, e-commerce stores, and digital platforms for businesses in Douala — Cameroon\'s economic capital and largest port city.',
+      fr: 'LIYAH GROUP crée des sites web, des boutiques e-commerce et des plateformes digitales pour les entreprises de Douala — la capitale économique du Cameroun et la plus grande ville portuaire.',
+    },
+    marketContext: {
+      en: 'Douala is Cameroon\'s economic capital and largest city, handling the majority of the country\'s trade. The city has a growing digital economy with MTN Mobile Money and Orange Money leading mobile payments. We build for Douala businesses with bilingual French/English experiences, local payment integration, and logistics adapted to this port city.',
+      fr: 'Douala est la capitale économique du Cameroun et la plus grande ville, gérant la majorité du commerce du pays. La ville a une économie digitale en croissance avec MTN Mobile Money et Orange Money en tête des paiements mobiles. Nous construisons pour les entreprises de Douala avec des expériences bilingues français/anglais, une intégration de paiement locale, et une logistique adaptée à cette ville portuaire.',
+    },
+    services: ['ecommerce-shopify', 'website-design-development', 'business-automation-crm'],
+    faqs: [
+      { question: { en: 'Do you build e-commerce stores for Douala businesses?', fr: 'Créez-vous des boutiques e-commerce pour les entreprises de Douala ?' }, answer: { en: 'Yes. We build e-commerce stores with MTN and Orange Money integration for Douala businesses.', fr: 'Oui. Nous créons des boutiques e-commerce avec intégration MTN et Orange Money pour les entreprises de Douala.' } },
+    ],
+    seo: {
+      title: { en: 'Digital Agency in Douala | LIYAH GROUP', fr: 'Agence Digitale à Douala | LIYAH GROUP' },
+      description: { en: 'Web design, e-commerce, and digital growth for businesses in Douala, Cameroon. MTN and Orange Money integration, bilingual French/English, built for the Douala market.', fr: 'Création de sites web, e-commerce et croissance digitale pour les entreprises de Douala, Cameroun. Intégration MTN et Orange Money, bilingue français/anglais, conçu pour le marché de Douala.' },
+    },
+    hreflangPair: 'agence-digitale-douala',
+  },
 ];
 
 export function getLocationBySlug(slug: string): LocationPage | undefined {

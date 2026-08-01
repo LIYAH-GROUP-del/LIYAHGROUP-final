@@ -125,7 +125,7 @@ export const saasProducts: SaaSProduct[] = [
     ],
     faqs: [
       { question: { en: 'Can I sell my courses through Digital Skills?', fr: 'Puis-je vendre mes cours via Digital Skills ?' }, answer: { en: 'Yes. You can charge for courses with integrated payment processing including mobile money.', fr: 'Oui. Vous pouvez facturer les cours avec un traitement de paiement intégré incluant le mobile money.' } },
-      { question: { en: 'Does it connect to Skul Afrik?', fr: 'Se connecte-t-il à Skul Afrik ?' }, answer: { en: 'Yes. Digital Skills is part of the LiAfrik ecosystem and shares data with Skul Afrik for school management.', fr: 'Oui. Digital Skills fait partie de l\'écosystème LiAfrik et partage les données avec Skul Afrik pour la gestion scolaire.' } },
+      { question: { en: 'Does it connect to Klasoo?', fr: 'Se connecte-t-il à Klasoo ?' }, answer: { en: 'Yes. Digital Skills is part of the LiAfrik ecosystem and shares data with Klasoo for school management.', fr: 'Oui. Digital Skills fait partie de l\'écosystème LiAfrik et partage les données avec Klasoo pour la gestion scolaire.' } },
     ],
     seo: {
       title: { en: 'Digital Skills — Online Learning Platform | LiAfrik by LIYAH GROUP', fr: 'Digital Skills — Plateforme d\'Apprentissage en Ligne | LiAfrik par LIYAH GROUP' },
@@ -442,8 +442,8 @@ export const saasProducts: SaaSProduct[] = [
     },
   },
   {
-    slug: 'liafrik-skul-afrik',
-    name: 'Skul Afrik',
+    slug: 'liafrik-klasoo',
+    name: 'Klasoo',
     category: { en: 'Education Management', fr: 'Gestion de l\'Éducation' },
     valueProposition: {
       en: 'Management platform for schools and educational institutions.',
@@ -484,11 +484,11 @@ export const saasProducts: SaaSProduct[] = [
     ],
     faqs: [
       { question: { en: 'Can parents access their child\'s information?', fr: 'Les parents peuvent-ils accéder aux informations de leur enfant ?' }, answer: { en: 'Yes. Parents get a portal to view grades, attendance, fee status, and school announcements.', fr: 'Oui. Les parents ont un portail pour consulter les notes, la présence, le statut des frais et les annonces de l\'école.' } },
-      { question: { en: 'Does Skul Afrik connect to Digital Skills?', fr: 'Skul Afrik se connecte-t-il à Digital Skills ?' }, answer: { en: 'Yes. Students in Skul Afrik can be enrolled in Digital Skills courses, with grades flowing back to their academic records.', fr: 'Oui. Les étudiants de Skul Afrik peuvent être inscrits aux cours de Digital Skills, avec les notes revenant vers leur dossier scolaire.' } },
+      { question: { en: 'Does Klasoo connect to Digital Skills?', fr: 'Klasoo se connecte-t-il à Digital Skills ?' }, answer: { en: 'Yes. Students in Klasoo can be enrolled in Digital Skills courses, with grades flowing back to their academic records.', fr: 'Oui. Les étudiants de Klasoo peuvent être inscrits aux cours de Digital Skills, avec les notes revenant vers leur dossier scolaire.' } },
     ],
     seo: {
-      title: { en: 'Skul Afrik — School Management Platform | LiAfrik', fr: 'Skul Afrik — Plateforme de Gestion Scolaire | LiAfrik' },
-      description: { en: 'Skul Afrik by LiAfrik: student and teacher management, class scheduling, grades, attendance, fee collection, and parent portal for African schools.', fr: 'Skul Afrik par LiAfrik : gestion des étudiants et enseignants, planification des classes, notes, présence, collecte des frais et portail parents pour les écoles africaines.' },
+      title: { en: 'Klasoo — School Management Platform | LiAfrik', fr: 'Klasoo — Plateforme de Gestion Scolaire | LiAfrik' },
+      description: { en: 'Klasoo by LiAfrik: student and teacher management, class scheduling, grades, attendance, fee collection, and parent portal for African schools.', fr: 'Klasoo par LiAfrik : gestion des étudiants et enseignants, planification des classes, notes, présence, collecte des frais et portail parents pour les écoles africaines.' },
     },
   },
   {
@@ -649,6 +649,12 @@ export function getSaaSProductBySlug(slug: string): SaaSProduct | undefined {
 
 export function getLiAfrikModules(): SaaSProduct[] {
   return saasProducts.filter((p) => p.isModule);
+}
+
+export function getProductName(slug: string, lang: Lang): string {
+  const product = saasProducts.find((p) => p.slug === slug);
+  if (!product) return '';
+  return product.name;
 }
 
 export { tr };

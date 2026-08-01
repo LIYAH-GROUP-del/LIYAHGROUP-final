@@ -17,54 +17,35 @@ const socialLinks = [
   { icon: <MessageCircle size={16} strokeWidth={1.5} />, href: 'https://wa.me/971503857203', label: 'WhatsApp' },
 ];
 
-const quickLinks = [
-  { label: 'About', path: '/about' },
-  { label: 'Services', path: '/services' },
-  { label: 'SaaS Products', path: '/saas' },
-  { label: 'Pricing', path: '/pricing' },
-  { label: 'Projects', path: '/projects' },
-  { label: 'Blog', path: '/blog' },
-  { label: 'Contact', path: '/contact' },
-];
-
-const serviceLinks = [
-  { label: 'Website Design & Development', path: '/services/website-design-development' },
-  { label: 'E-Commerce & Shopify', path: '/services/ecommerce-shopify' },
-  { label: 'Custom Platforms & Mobile Apps', path: '/services/custom-platforms-mobile-apps' },
-  { label: 'Business Automation & CRM', path: '/services/business-automation-crm' },
-  { label: 'SEO & Digital Growth', path: '/services/seo-digital-growth-strategy' },
-  { label: 'Brand Strategy & Digital Presence', path: '/services/brand-strategy-digital-presence' },
-];
-
-const productLinks = [
-  { label: 'All SaaS Products', path: '/saas' },
-  { label: 'LiAfrik Platform', path: '/saas/liafrik' },
-  { label: 'Digital Skills', path: '/saas/liafrik-digital-skills' },
-  { label: 'POS Commerce', path: '/saas/liafrik-pos-commerce' },
-  { label: 'Mafo La Reine', path: '/saas/liafrik-mafo-la-reine' },
-  { label: 'Faka HR', path: '/saas/liafrik-faka-hr' },
-  { label: 'Health', path: '/saas/liafrik-health' },
-  { label: 'CRM', path: '/saas/liafrik-crm' },
-  { label: 'Libooks', path: '/saas/liafrik-libooks' },
-  { label: 'Skul Afrik', path: '/saas/liafrik-skul-afrik' },
-  { label: 'Bailly', path: '/saas/liafrik-bailly' },
-  { label: 'Liafund', path: '/saas/liafrik-liafund' },
-  { label: 'OS', path: '/saas/liafrik-os' },
-];
-
-const locationLinks = [
-  { label: 'Côte d\'Ivoire', path: '/fr/agence-digitale-cote-divoire' },
-  { label: 'Sénégal', path: '/fr/creation-site-web-senegal' },
-  { label: 'Cameroun', path: '/fr/e-commerce-cameroun' },
-  { label: 'Nigeria', path: '/en/digital-agency-nigeria' },
-  { label: 'Kenya', path: '/en/ecommerce-agency-kenya' },
-  { label: 'UAE / Dubai', path: '/en/digital-agency-united-arab-emirates' },
-];
-
 export default function Footer() {
   const { t, lang } = useLang();
 
-  const productsLinks = t.products.modules.slice(0, 6).map((m) => ({ label: m.name, path: '/contact' }));
+  const quickLinks = [
+    { label: lang === 'FR' ? 'À Propos' : 'About', path: '/about' },
+    { label: lang === 'FR' ? 'Services & Projets' : 'Services & Projects', path: '/services' },
+    { label: lang === 'FR' ? 'Produits SaaS' : 'SaaS Products', path: '/saas' },
+    { label: lang === 'FR' ? 'Tarifs' : 'Pricing', path: '/pricing' },
+    { label: lang === 'FR' ? 'Blog' : 'Blog', path: '/blog' },
+    { label: lang === 'FR' ? 'Contact' : 'Contact', path: '/contact' },
+  ];
+
+  const productLinks = [
+    { label: lang === 'FR' ? 'Tous les Produits' : 'All Products', path: '/saas' },
+    { label: 'LiAfrik', path: '/saas/liafrik' },
+    { label: 'Digital Skills', path: '/saas/liafrik-digital-skills' },
+    { label: 'POS Commerce', path: '/saas/liafrik-pos-commerce' },
+    { label: 'Klasoo', path: '/saas/liafrik-klasoo' },
+    { label: 'OS', path: '/saas/liafrik-os' },
+  ];
+
+  const locationLinks = [
+    { label: 'Côte d\'Ivoire', path: '/fr/agence-digitale-cote-divoire' },
+    { label: 'Sénégal', path: '/fr/creation-site-web-senegal' },
+    { label: 'Cameroun', path: '/fr/e-commerce-cameroun' },
+    { label: 'Nigeria', path: '/en/digital-agency-nigeria' },
+    { label: 'Kenya', path: '/en/ecommerce-agency-kenya' },
+    { label: lang === 'FR' ? 'EAU / Dubaï' : 'UAE / Dubai', path: '/en/digital-agency-united-arab-emirates' },
+  ];
 
   return (
     <footer className="relative bg-slate-900 text-slate-300 overflow-hidden">
@@ -72,9 +53,9 @@ export default function Footer() {
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(37,99,235,0.05),transparent_60%)] pointer-events-none" />
 
       <div className="relative max-w-7xl mx-auto px-6 pt-20 pb-8">
-        <div className="grid md:grid-cols-2 lg:grid-cols-6 gap-10 mb-14">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10 mb-14">
           {/* Brand */}
-          <div className="lg:col-span-2">
+          <div>
             <h3 className="text-xl font-bold text-white tracking-tight mb-4">LIYAH GROUP</h3>
             <p className="text-slate-400 text-sm leading-relaxed mb-6 max-w-sm">{t.footer.tagline}</p>
             <div className="flex gap-3 mb-6">
@@ -99,21 +80,6 @@ export default function Footer() {
             <h4 className="text-white text-xs font-semibold uppercase tracking-widest mb-5">{lang === 'FR' ? 'Liens Rapides' : 'Quick Links'}</h4>
             <ul className="space-y-3">
               {quickLinks.map((item) => (
-                <li key={item.label}>
-                  <Link to={item.path} className="text-slate-400 hover:text-secondary-400 transition-colors text-sm flex items-center gap-1.5 group">
-                    <ArrowRight size={12} className="opacity-0 group-hover:opacity-100 -ml-5 group-hover:ml-0 transition-all" />
-                    {item.label}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Services */}
-          <div>
-            <h4 className="text-white text-xs font-semibold uppercase tracking-widest mb-5">{lang === 'FR' ? 'Services' : 'Services'}</h4>
-            <ul className="space-y-3">
-              {serviceLinks.map((item) => (
                 <li key={item.path}>
                   <Link to={item.path} className="text-slate-400 hover:text-secondary-400 transition-colors text-sm flex items-center gap-1.5 group">
                     <ArrowRight size={12} className="opacity-0 group-hover:opacity-100 -ml-5 group-hover:ml-0 transition-all" />
@@ -124,7 +90,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Products */}
+          {/* Products + Locations */}
           <div>
             <h4 className="text-white text-xs font-semibold uppercase tracking-widest mb-5">{lang === 'FR' ? 'Produits SaaS' : 'SaaS Products'}</h4>
             <ul className="space-y-3 mb-6">

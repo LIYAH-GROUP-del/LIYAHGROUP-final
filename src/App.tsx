@@ -6,7 +6,7 @@ import AboutPage from '@/pages/AboutPage';
 import ServicesPage from '@/pages/ServicesPage';
 import ServiceDetailPage from '@/pages/ServiceDetailPage';
 import PricingPage from '@/pages/PricingPage';
-import ProjectsPage from '@/pages/ProjectsPage';
+// ProjectsPage merged into ServicesPage
 import CoursesPage from '@/pages/CoursesPage';
 import BlogPage from '@/pages/BlogPage';
 import BlogArticlePage from '@/pages/BlogArticlePage';
@@ -27,7 +27,7 @@ function App() {
             <Route path="/services" element={<ServicesPage />} />
             <Route path="/services/:slug" element={<ServiceDetailPage />} />
             <Route path="/pricing" element={<PricingPage />} />
-            <Route path="/projects" element={<ProjectsPage />} />
+            <Route path="/projects" element={<ServicesPage />} />
             <Route path="/courses" element={<CoursesPage />} />
             <Route path="/blog" element={<BlogPage />} />
             <Route path="/blog/:slug" element={<BlogArticlePage />} />

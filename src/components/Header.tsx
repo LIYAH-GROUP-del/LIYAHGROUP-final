@@ -56,9 +56,11 @@ export default function Header() {
     {
       label: t.header.services,
       children: [
-        { label: t.header.projectsChildren.digital, path: '/services/website-design-development', descKey: 'digitalDesc' },
-        { label: t.header.projectsChildren.ecommerce, path: '/services/ecommerce-shopify', descKey: 'ecommerceDesc' },
-        { label: t.header.projectsChildren.growth, path: '/services/seo-digital-growth-strategy', descKey: 'growthDesc' },
+        { label: lang === 'FR' ? 'Tous les Services' : 'All Services', path: '/services' },
+        { label: lang === 'FR' ? 'Présence Digitale' : 'Digital Presence', path: '/services/website-design-development', descKey: 'digitalDesc' },
+        { label: lang === 'FR' ? 'E-Commerce & Revenus' : 'E-Commerce & Revenue', path: '/services/ecommerce-shopify', descKey: 'ecommerceDesc' },
+        { label: lang === 'FR' ? 'Croissance & Automatisation' : 'Growth & Automation', path: '/services/seo-digital-growth-strategy', descKey: 'growthDesc' },
+        { label: lang === 'FR' ? 'Voir les Projets' : 'View Projects', path: '/services?tab=projects' },
       ],
     },
     {
@@ -73,18 +75,10 @@ export default function Header() {
         { label: 'Health', path: '/saas/liafrik-health' },
         { label: 'CRM', path: '/saas/liafrik-crm' },
         { label: 'Libooks', path: '/saas/liafrik-libooks' },
-        { label: 'Skul Afrik', path: '/saas/liafrik-skul-afrik' },
+        { label: 'Klasoo', path: '/saas/liafrik-klasoo' },
         { label: 'Bailly', path: '/saas/liafrik-bailly' },
         { label: 'Liafund', path: '/saas/liafrik-liafund' },
         { label: 'OS', path: '/saas/liafrik-os' },
-      ],
-    },
-    {
-      label: t.header.projects,
-      children: [
-        { label: t.header.projectsChildren.digital, path: '/projects?cat=digital', descKey: 'digitalDesc' },
-        { label: t.header.projectsChildren.ecommerce, path: '/projects?cat=ecommerce', descKey: 'ecommerceDesc' },
-        { label: t.header.projectsChildren.growth, path: '/projects?cat=growth', descKey: 'growthDesc' },
       ],
     },
     { label: t.header.pricing, path: '/pricing' },
