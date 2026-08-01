@@ -78,7 +78,7 @@ export const saasProducts: SaaSProduct[] = [
     ],
     seo: {
       title: { en: 'LiAfrik — All-in-One Modular Business Platform | LIYAH GROUP', fr: 'LiAfrik — Plateforme Business Modulaire Tout-en-Un | LIYAH GROUP' },
-      description: { en: 'LiAfrik is the unified African business operating system. CRM, POS, HR, Health, Accounting, E-commerce, Education, Real Estate — all in one modular platform.', fr: 'LiAfrik est le système d\'exploitation business africain unifié. CRM, POS, RH, Santé, Comptabilité, E-commerce, Éducation, Immobilier — tout-en-un sur une plateforme modulaire.' },
+      description: { en: 'LiAfrik is a unified business operating system for Africa and the world. CRM, POS, HR, Health, Accounting, E-commerce, Education, Real Estate — 11 modules on one scalable platform.', fr: 'LiAfrik est un système d\'exploitation business unifié pour l\'Afrique et le monde. CRM, POS, RH, Santé, Comptabilité, E-commerce, Éducation, Immobilier — 11 modules sur une plateforme évolutive.' },
     },
   },
   {
@@ -129,7 +129,7 @@ export const saasProducts: SaaSProduct[] = [
     ],
     seo: {
       title: { en: 'Digital Skills — Online Learning Platform | LiAfrik by LIYAH GROUP', fr: 'Digital Skills — Plateforme d\'Apprentissage en Ligne | LiAfrik par LIYAH GROUP' },
-      description: { en: 'Digital Skills by LiAfrik: online learning and professional training with courses, certifications, and progress tracking for African businesses and institutions.', fr: 'Digital Skills par LiAfrik : apprentissage en ligne et formation professionnelle avec cours, certifications et suivi de progression pour les entreprises et institutions africaines.' },
+      description: { en: 'Digital Skills by LiAfrik: online learning and professional training with courses, certifications, and progress tracking for businesses and institutions worldwide.', fr: 'Digital Skills par LiAfrik : apprentissage en ligne et formation professionnelle avec cours, certifications et suivi de progression pour les entreprises et institutions du monde entier.' },
     },
   },
   {
@@ -181,7 +181,7 @@ export const saasProducts: SaaSProduct[] = [
     ],
     seo: {
       title: { en: 'POS Commerce — Point-of-Sale & Retail Management | LiAfrik', fr: 'POS Commerce — Point de Vente & Gestion Retail | LiAfrik' },
-      description: { en: 'POS Commerce by LiAfrik: fast point-of-sale checkout, real-time inventory, multi-store management, and mobile money payments for African retail businesses.', fr: 'POS Commerce par LiAfrik : encaissement rapide, inventaire en temps réel, gestion multi-magasins et paiements mobile money pour les commerces africains.' },
+      description: { en: 'POS Commerce by LiAfrik: fast point-of-sale checkout, real-time inventory, multi-store management, and mobile money payments for retail businesses in Africa and worldwide.', fr: 'POS Commerce par LiAfrik : encaissement rapide, inventaire en temps réel, gestion multi-magasins et paiements mobile money pour les commerces en Afrique et dans le monde.' },
     },
   },
   {
@@ -233,7 +233,7 @@ export const saasProducts: SaaSProduct[] = [
     ],
     seo: {
       title: { en: 'Mafo La Reine — Women\'s Wellness & Cycle Tracking | LiAfrik', fr: 'Mafo La Reine — Bien-être des Femmes & Suivi de Cycle | LiAfrik' },
-      description: { en: 'Mafo La Reine by LiAfrik: menstrual-cycle tracking, pregnancy stages, fertility windows, and wellness insights for women across Africa.', fr: 'Mafo La Reine par LiAfrik : suivi du cycle menstruel, étapes de grossesse, fenêtres de fertilité et conseils de bien-être pour les femmes à travers l\'Afrique.' },
+      description: { en: 'Mafo La Reine by LiAfrik: menstrual-cycle tracking, pregnancy stages, fertility windows, and wellness insights for women in Africa and around the world.', fr: 'Mafo La Reine par LiAfrik : suivi du cycle menstruel, étapes de grossesse, fenêtres de fertilité et conseils de bien-être pour les femmes en Afrique et dans le monde.' },
     },
   },
   {
@@ -285,7 +285,7 @@ export const saasProducts: SaaSProduct[] = [
     ],
     seo: {
       title: { en: 'Faka HR — HR & Payroll Management Platform | LiAfrik', fr: 'Faka HR — Plateforme de Gestion RH & Paie | LiAfrik' },
-      description: { en: 'Faka HR by LiAfrik: employee management, payroll with local tax rules, leave management, attendance tracking, and performance reviews for African businesses.', fr: 'Faka HR par LiAfrik : gestion des employés, paie avec règles fiscales locales, gestion des congés, suivi de présence et évaluations de performance pour les entreprises africaines.' },
+      description: { en: 'Faka HR by LiAfrik: employee management, payroll with local tax rules, leave management, attendance tracking, and performance reviews for businesses in Africa and worldwide.', fr: 'Faka HR par LiAfrik : gestion des employés, paie avec règles fiscales locales, gestion des congés, suivi de présence et évaluations de performance pour les entreprises en Afrique et dans le monde.' },
     },
   },
   {
@@ -337,7 +337,7 @@ export const saasProducts: SaaSProduct[] = [
     ],
     seo: {
       title: { en: 'Health — Hospital & Healthcare Management | LiAfrik', fr: 'Health — Gestion Hospitalière & de Santé | LiAfrik' },
-      description: { en: 'Health by LiAfrik: patient management, electronic medical records, appointment scheduling, pharmacy, and medical billing for African clinics and hospitals.', fr: 'Health par LiAfrik : gestion des patients, dossiers médicaux électroniques, planification des rendez-vous, pharmacie et facturation médicale pour les cliniques et hôpitaux africains.' },
+      description: { en: 'Health by LiAfrik: patient management, electronic medical records, appointment scheduling, pharmacy, and medical billing for clinics and hospitals in Africa and worldwide.', fr: 'Health par LiAfrik : gestion des patients, dossiers médicaux électroniques, planification des rendez-vous, pharmacie et facturation médicale pour les cliniques et hôpitaux en Afrique et dans le monde.' },
     },
   },
   {
@@ -388,7 +388,7 @@ export const saasProducts: SaaSProduct[] = [
     ],
     seo: {
       title: { en: 'CRM — Customer Relationship & Sales Management | LiAfrik', fr: 'CRM — Gestion des Relations Clients & Ventes | LiAfrik' },
-      description: { en: 'CRM by LiAfrik: visual sales pipeline, lead capture from web and WhatsApp, contact management, and sales forecasting for African businesses.', fr: 'CRM par LiAfrik : pipeline de ventes visuel, capture de prospects depuis le web et WhatsApp, gestion des contacts et prévisions de ventes pour les entreprises africaines.' },
+      description: { en: 'CRM by LiAfrik: visual sales pipeline, lead capture from web and WhatsApp, contact management, and sales forecasting for businesses in Africa and worldwide.', fr: 'CRM par LiAfrik : pipeline de ventes visuel, capture de prospects depuis le web et WhatsApp, gestion des contacts et prévisions de ventes pour les entreprises en Afrique et dans le monde.' },
     },
   },
   {
@@ -488,7 +488,7 @@ export const saasProducts: SaaSProduct[] = [
     ],
     seo: {
       title: { en: 'Klasoo — School Management Platform | LiAfrik', fr: 'Klasoo — Plateforme de Gestion Scolaire | LiAfrik' },
-      description: { en: 'Klasoo by LiAfrik: student and teacher management, class scheduling, grades, attendance, fee collection, and parent portal for African schools.', fr: 'Klasoo par LiAfrik : gestion des étudiants et enseignants, planification des classes, notes, présence, collecte des frais et portail parents pour les écoles africaines.' },
+      description: { en: 'Klasoo by LiAfrik: student and teacher management, class scheduling, grades, attendance, fee collection, and parent portal for schools in Africa and worldwide.', fr: 'Klasoo par LiAfrik : gestion des étudiants et enseignants, planification des classes, notes, présence, collecte des frais et portail parents pour les écoles en Afrique et dans le monde.' },
     },
   },
   {
@@ -538,7 +538,7 @@ export const saasProducts: SaaSProduct[] = [
     ],
     seo: {
       title: { en: 'Bailly — Real Estate & Property Management | LiAfrik', fr: 'Bailly — Gestion Immobilière & de Propriété | LiAfrik' },
-      description: { en: 'Bailly by LiAfrik: property and unit management, tenant tracking, digital leases, rent collection with mobile money, and maintenance requests for African real estate.', fr: 'Bailly par LiAfrik : gestion des propriétés et unités, suivi des locataires, baux numériques, collecte de loyers avec mobile money et demandes de maintenance pour l\'immobilier africain.' },
+      description: { en: 'Bailly by LiAfrik: property and unit management, tenant tracking, digital leases, rent collection with mobile money, and maintenance requests for real estate in Africa and worldwide.', fr: 'Bailly par LiAfrik : gestion des propriétés et unités, suivi des locataires, baux numériques, collecte de loyers avec mobile money et demandes de maintenance pour l\'immobilier en Afrique et dans le monde.' },
     },
   },
   {
@@ -588,7 +588,7 @@ export const saasProducts: SaaSProduct[] = [
     ],
     seo: {
       title: { en: 'Liafund — Tontine & Savings Group Management | LiAfrik', fr: 'Liafund — Gestion de Tontine & Groupes d\'Épargne | LiAfrik' },
-      description: { en: 'Liafund by LiAfrik: digitize your tontine or savings group with member management, mobile money contributions, automated reminders, and transparent payouts.', fr: 'Liafund par LiAfrik : numérisez votre tontine ou groupe d\'épargne avec gestion des membres, cotisations mobile money, rappels automatisés et paiements transparents.' },
+      description: { en: 'Liafund by LiAfrik: digitize your tontine or savings group with member management, mobile money contributions, automated reminders, and transparent payouts for communities in Africa and worldwide.', fr: 'Liafund par LiAfrik : numérisez votre tontine ou groupe d\'épargne avec gestion des membres, cotisations mobile money, rappels automatisés et paiements transparents pour les communautés en Afrique et dans le monde.' },
     },
   },
   {
@@ -638,7 +638,7 @@ export const saasProducts: SaaSProduct[] = [
     ],
     seo: {
       title: { en: 'OS — E-Commerce Platform for Africa | LiAfrik by LIYAH GROUP', fr: 'OS — Plateforme E-Commerce pour l\'Afrique | LiAfrik par LIYAH GROUP' },
-      description: { en: 'OS by LiAfrik: the Shopify of Africa. Build online stores with mobile money payments, product management, order fulfillment, and merchant tools built for African commerce.', fr: 'OS par LiAfrik : le Shopify de l\'Afrique. Créez des boutiques en ligne avec paiements mobile money, gestion des produits, expédition des commandes et outils marchands conçus pour le commerce africain.' },
+      description: { en: 'OS by LiAfrik: the Shopify of Africa. Build online stores with mobile money payments, product management, order fulfillment, and merchant tools built for commerce in Africa and worldwide.', fr: 'OS par LiAfrik : le Shopify de l\'Afrique. Créez des boutiques en ligne avec paiements mobile money, gestion des produits, expédition des commandes et outils marchands conçus pour le commerce en Afrique et dans le monde.' },
     },
   },
 ];

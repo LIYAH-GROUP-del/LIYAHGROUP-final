@@ -38,14 +38,7 @@ export default function Footer() {
     { label: 'OS', path: '/saas/liafrik-os' },
   ];
 
-  const locationLinks = [
-    { label: 'Côte d\'Ivoire', path: '/fr/agence-digitale-cote-divoire' },
-    { label: 'Sénégal', path: '/fr/creation-site-web-senegal' },
-    { label: 'Cameroun', path: '/fr/e-commerce-cameroun' },
-    { label: 'Nigeria', path: '/en/digital-agency-nigeria' },
-    { label: 'Kenya', path: '/en/ecommerce-agency-kenya' },
-    { label: lang === 'FR' ? 'EAU / Dubaï' : 'UAE / Dubai', path: '/en/digital-agency-united-arab-emirates' },
-  ];
+
 
   return (
     <footer className="relative bg-slate-900 text-slate-300 overflow-hidden">
@@ -90,25 +83,14 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Products + Locations */}
+          {/* Products */}
           <div>
             <h4 className="text-white text-xs font-semibold uppercase tracking-widest mb-5">{lang === 'FR' ? 'Produits SaaS' : 'SaaS Products'}</h4>
-            <ul className="space-y-3 mb-6">
+            <ul className="space-y-3">
               {productLinks.map((item) => (
                 <li key={item.path}>
                   <Link to={item.path} className="text-slate-400 hover:text-secondary-400 transition-colors text-sm flex items-center gap-1.5 group">
                     <ArrowRight size={12} className="opacity-0 group-hover:opacity-100 -ml-5 group-hover:ml-0 transition-all flex-shrink-0" />
-                    {item.label}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-            <h4 className="text-white text-xs font-semibold uppercase tracking-widest mb-3">{lang === 'FR' ? 'Où nous opérons' : 'Where we work'}</h4>
-            <ul className="space-y-3">
-              {locationLinks.map((item) => (
-                <li key={item.path}>
-                  <Link to={item.path} className="text-slate-400 hover:text-secondary-400 transition-colors text-sm flex items-center gap-1.5 group">
-                    <ArrowRight size={12} className="opacity-0 group-hover:opacity-100 -ml-5 group-hover:ml-0 transition-all" />
                     {item.label}
                   </Link>
                 </li>

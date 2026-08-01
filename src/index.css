@@ -213,6 +213,38 @@
 }
 .animate-fade-up { animation: fadeUp 0.7s ease forwards; }
 
+/* Tech grid background */
+.tech-grid-bg {
+  background-image:
+    linear-gradient(rgba(37,99,235,0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(37,99,235,0.06) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+/* Slow pulse for background orbs */
+@keyframes pulseSlow {
+  0%, 100% { opacity: 0.4; transform: scale(1); }
+  50% { opacity: 0.7; transform: scale(1.05); }
+}
+.animate-pulse-slow { animation: pulseSlow 6s ease-in-out infinite; }
+
+/* Cursor glow trail */
+@keyframes cursorGlowPulse {
+  0%, 100% { opacity: 0.4; }
+  50% { opacity: 0.7; }
+}
+
+/* Tech scanline effect */
+.tech-scanline {
+  background: linear-gradient(
+    180deg,
+    transparent 0%,
+    rgba(37,99,235,0.03) 50%,
+    transparent 100%
+  );
+  background-size: 100% 8px;
+}
+
 ::-webkit-scrollbar { width: 6px; }
 ::-webkit-scrollbar-track { background: #f1f5f9; }
 ::-webkit-scrollbar-thumb { background: #2563eb; border-radius: 3px; }

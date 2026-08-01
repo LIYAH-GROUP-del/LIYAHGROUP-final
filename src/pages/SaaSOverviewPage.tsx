@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { ArrowRight, Boxes, MessageCircle, CheckCircle } from 'lucide-react';
+import { ArrowRight, Boxes, MessageCircle, CheckCircle, Sparkles } from 'lucide-react';
 import PageHero from '@/components/PageHero';
 import SEO from '@/components/SEO';
 import ProductMockup from '@/components/ProductMockup';
@@ -32,29 +32,37 @@ export default function SaaSOverviewPage() {
   return (
     <>
       <SEO
-        title={lang === 'FR' ? 'Produits SaaS | LiAfrik par LIYAH GROUP' : 'SaaS Products | LiAfrik by LIYAH GROUP'}
+        title={lang === 'FR' ? 'LiAfrik — Plateforme SaaS Business | LIYAH GROUP' : 'LiAfrik — Business SaaS Platform | LIYAH GROUP'}
         description={lang === 'FR'
-          ? 'LiAfrik est le système d\'exploitation business africain unifié. CRM, POS, RH, Santé, Comptabilité, E-commerce, Éducation, Immobilier — 11 modules sur une seule plateforme.'
-          : 'LiAfrik is the unified African business operating system. CRM, POS, HR, Health, Accounting, E-commerce, Education, Real Estate — 11 modules on one platform.'}
+          ? 'LiAfrik par LIYAH GROUP : CRM, POS, RH, Santé, Comptabilité, E-commerce, Éducation, Immobilier — 11 modules sur une seule plateforme. Conçu pour l\'Afrique et le monde entier.'
+          : 'LiAfrik by LIYAH GROUP: CRM, POS, HR, Health, Accounting, E-commerce, Education, Real Estate — 11 modules on one platform. Built for Africa and the world.'}
         path="/saas"
         jsonLd={jsonLd}
       />
       <PageHero
-        label={lang === 'FR' ? 'PRODUITS SaaS' : 'SaaS PRODUCTS'}
+        label={lang === 'FR' ? 'PLATEFORME SaaS' : 'SaaS PLATFORM'}
         title={lang === 'FR' ? 'LiAfrik — L\'OS Business Africain' : 'LiAfrik — The African Business OS'}
         subtitle={lang === 'FR'
-          ? '11 modules. Une seule plateforme. Activez ce dont vous avez besoin — évoluez à votre rythme. Conçu pour l\'Afrique et les EAU.'
-          : '11 modules. One platform. Activate what you need — scale as you grow. Built for Africa and the UAE.'}
+          ? '11 modules. Une seule plateforme. Activez ce dont vous avez besoin — évoluez à votre rythme. Conçu pour l\'Afrique et le monde entier.'
+          : '11 modules. One platform. Activate what you need — scale as you grow. Built for Africa and the world.'}
       />
 
-      {/* LiAfrik main product spotlight */}
+      {/* LiAfrik unified product section */}
       {liafrik && (
         <section className="relative py-20 md:py-28 bg-slate-900 overflow-hidden">
+          {/* Tech background effects */}
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(37,99,235,0.08),transparent_60%)]" />
+          <div className="absolute inset-0 tech-grid-bg opacity-20" />
+          <div className="absolute top-0 left-1/4 w-96 h-96 bg-secondary-600/10 blur-[120px] rounded-full animate-pulse-slow" />
+          <div className="absolute bottom-0 right-1/4 w-80 h-80 bg-accent-500/10 blur-[100px] rounded-full animate-pulse-slow" style={{ animationDelay: '1.5s' }} />
+
           <div className="relative max-w-7xl mx-auto px-6">
             <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
               <div>
-                <span className="section-label text-secondary-400">{lang === 'FR' ? 'PRODUIT PRINCIPAL' : 'FLAGSHIP PRODUCT'}</span>
+                <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-secondary-500/10 border border-secondary-500/20 mb-6">
+                  <Sparkles size={14} className="text-secondary-400" />
+                  <span className="text-secondary-400 text-xs uppercase tracking-widest font-bold">{lang === 'FR' ? 'PLATEFORME UNIFIÉE' : 'UNIFIED PLATFORM'}</span>
+                </div>
                 <h2 className="text-3xl md:text-5xl font-bold tracking-tight text-white mb-6 text-balance">
                   {lang === 'FR' ? 'LiAfrik — Un Système, Toute Votre Entreprise' : 'LiAfrik — One System, Your Entire Business'}
                 </h2>
@@ -105,20 +113,23 @@ export default function SaaSOverviewPage() {
         </div>
       </section>
 
-      {/* Module cards grid */}
+      {/* All LiAfrik modules — unified grid */}
       <section ref={ref} className="relative py-20 md:py-28 bg-slate-50 overflow-hidden">
-        <div className="absolute top-10 right-10 w-64 h-64 bg-secondary-50 rounded-full blur-3xl" />
-        <div className="absolute bottom-10 left-10 w-48 h-48 bg-accent-50 rounded-full blur-3xl" />
+        {/* Tech background effects */}
+        <div className="absolute top-10 right-10 w-64 h-64 bg-secondary-50 rounded-full blur-3xl animate-pulse-slow" />
+        <div className="absolute bottom-10 left-10 w-48 h-48 bg-accent-50 rounded-full blur-3xl animate-pulse-slow" style={{ animationDelay: '1s' }} />
+        <div className="absolute inset-0 tech-grid-bg opacity-[0.03]" />
+
         <div className="relative max-w-7xl mx-auto px-6">
           <div className="text-center mb-14 max-w-3xl mx-auto">
             <span className="section-label">{lang === 'FR' ? 'MODULES LIAFRIK' : 'LIAFRIK MODULES'}</span>
             <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-slate-900 mb-4 text-balance">
-              {lang === 'FR' ? 'Choisissez Vos Modules' : 'Choose Your Modules'}
+              {lang === 'FR' ? 'Tous Vos Outils, Une Seule Plateforme' : 'All Your Tools, One Platform'}
             </h2>
             <p className="text-slate-600 text-sm md:text-base leading-relaxed">
               {lang === 'FR'
-                ? 'Activez uniquement les modules dont vous avez besoin aujourd\'hui. Ajoutez-en au fur et à mesure de votre croissance.'
-                : 'Activate only the modules you need today. Add more as your business grows.'}
+                ? 'Activez uniquement les modules dont vous avez besoin aujourd\'hui. Ajoutez-en au fur et à mesure de votre croissance. Tous les modules font partie de LiAfrik.'
+                : 'Activate only the modules you need today. Add more as your business grows. Every module is part of LiAfrik.'}
             </p>
           </div>
 
@@ -126,12 +137,12 @@ export default function SaaSOverviewPage() {
             {modules.map((product, i) => (
               <div
                 key={product.slug}
-                className={`animate-on-scroll animate-on-scroll-delay-${Math.min(i + 1, 4)} card card-hover overflow-hidden group flex flex-col`}
+                className={`animate-on-scroll animate-on-scroll-delay-${Math.min(i + 1, 4)} card-glow group card card-hover overflow-hidden flex flex-col relative`}
               >
                 <div className={`h-1.5 bg-gradient-to-r ${product.accent}`} />
                 <div className="p-6 flex flex-col flex-1">
                   <div className="flex items-start gap-3 mb-4">
-                    <div className={`w-12 h-12 rounded-xl bg-gradient-to-br ${product.accent} flex items-center justify-center flex-shrink-0`}>
+                    <div className={`w-12 h-12 rounded-xl bg-gradient-to-br ${product.accent} flex items-center justify-center flex-shrink-0 transition-transform duration-500 group-hover:scale-110 group-hover:rotate-3`}>
                       <Boxes size={22} className="text-white" strokeWidth={1.5} />
                     </div>
                     <div className="flex-1 min-w-0">
